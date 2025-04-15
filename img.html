@@ -1,0 +1,47 @@
+<td>
+			<img src="'.image($row['rtc']).'" alt="" style="height:100px; width:100px; border:2px solid black; border-radius:10px;"/>
+			</td>
+			<div class="myprofile_container">
+    <div class="customer_profile_photo">
+
+ 
+    </div>
+    <div class="customer_profile_details">
+    <label>Name : <?php echo $row['acc_no']; ?> </label><br>
+    <label>Sex : <?php echo $row['Cid']; ?> </label><br>
+	<label>Sex : <?php echo $row['acc_type']; ?> </label><br>
+    <label>Mobile No : <?php echo $row['nominee_name']; ?> </label><br>
+    <label>Landline : <?php echo $row['nominee_no']; ?> </label><br>
+    <label>Addresss : <?php echo $row['ocupation']; ?> </label><br>
+    
+    <label>Country : <?php echo $row['document']; ?> </label><br>
+    <label>State : <?php echo $row['saving_type']; ?> </label><br>
+    <label>City : <?php echo $row['business_infrm']; ?> </label><br>
+    <label>Pin Code : <?php echo $row['current_type']; ?> </label><br>
+	<label>State : <?php echo $row['dammount']; ?> </label><br>
+    <label>City : <?php echo $row['adate']; ?> </label><br>
+    <label>Pin Code : <?php echo $row['status']; ?> </label><br>
+    
+</div>
+</div>
+
+ <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+<img src="images/'.$row["image"].'" class="img-fluid w-100" alt="#"/>  
+                                <div class="blog-info">
+                                    <span><i class="fa fa-clock"></i> Dec 01.2024</span>
+                                    <div class="d-flex">
+                                        <span class="me-3"> 3 <i class="fa fa-heart"></i></span>
+                                        <a href="#" class="text-white">0 <i class="fa fa-comment"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-content text-dark border p-4 ">
+                                <h5 class="mb-4">'.$row["heading"].'</h5>
+                                <p class="mb-4">'.$row["Ndesc"].'</p>
+                                <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
